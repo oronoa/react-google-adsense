@@ -7,6 +7,23 @@
     "start": "webpack --watch",
     "build": "webpack"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:rjcoupe/react-google-adsense.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-component",
+    "google",
+    "adsense",
+    "google-adsense",
+    "react-google-ads",
+    "react-google-adsense"
+  ],
+  "bugs": {
+    "url": "https://github.com/rjcoupe/react-google-adsense/issues"
+  },
   "author": "Richard Coupe <rjcoupe@gmail.com>",
   "license": "MIT",
   "dependencies": {
