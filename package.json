@@ -1,6 +1,6 @@
 {
   "name": "react-google-adsense",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A simple ReactJS component for displaying Google AdSense advertisements",
   "main": "build/index.js",
   "scripts": {
