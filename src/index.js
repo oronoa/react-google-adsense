@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const externalJs = '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
 
-class ReactGoogleAdsense extends Component {
+class ReactGoogleAdsense extends React.Component {
     componentDidMount() {
         ((d, s, id, cb) => {
             const element = d.getElementsByTagName(s)[0];

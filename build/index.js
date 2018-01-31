@@ -91,8 +91,8 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 var externalJs = '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
 
-var ReactGoogleAdsense = function (_Component) {
-    _inherits(ReactGoogleAdsense, _Component);
+var ReactGoogleAdsense = function (_React$Component) {
+    _inherits(ReactGoogleAdsense, _React$Component);
 
     function ReactGoogleAdsense() {
         _classCallCheck(this, ReactGoogleAdsense);
@@ -131,7 +131,7 @@ var ReactGoogleAdsense = function (_Component) {
     }]);
 
     return ReactGoogleAdsense;
-}(_react.Component);
+}(_react2.default.Component);
 
 ReactGoogleAdsense.propTypes = {
     client: _react2.default.PropTypes.string.isRequired,

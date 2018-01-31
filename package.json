@@ -27,7 +27,7 @@
   "author": "Richard Coupe <rjcoupe@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "react": "^15.5.0",
+    "react": "^15.4.1",
     "webpack": "^3.6.0"
   },
   "devDependencies": {
