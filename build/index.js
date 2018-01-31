@@ -134,11 +134,11 @@ var ReactGoogleAdsense = function (_Component) {
 }(_react.Component);
 
 ReactGoogleAdsense.propTypes = {
-    client: _react.PropTypes.string.isRequired,
-    slot: _react.PropTypes.string.isRequired,
-    format: _react.PropTypes.string,
-    className: _react.PropTypes.string,
-    style: _react.PropTypes.object
+    client: _react2.default.PropTypes.string.isRequired,
+    slot: _react2.default.PropTypes.string.isRequired,
+    format: _react2.default.PropTypes.string,
+    className: _react2.default.PropTypes.string,
+    style: _react2.default.PropTypes.object
 };
 
 ReactGoogleAdSense.defaultProps = {

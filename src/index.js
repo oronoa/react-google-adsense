@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 
 const externalJs = '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
 
@@ -33,11 +33,11 @@ class ReactGoogleAdsense extends Component {
 }
 
 ReactGoogleAdsense.propTypes = {
-    client: PropTypes.string.isRequired,
-    slot: PropTypes.string.isRequired,
-    format: PropTypes.string,
-    className: PropTypes.string,
-    style: PropTypes.object
+    client: React.PropTypes.string.isRequired,
+    slot: React.PropTypes.string.isRequired,
+    format: React.PropTypes.string,
+    className: React.PropTypes.string,
+    style: React.PropTypes.object
 };
 
 ReactGoogleAdSense.defaultProps = {
