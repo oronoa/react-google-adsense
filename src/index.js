@@ -2,7 +2,10 @@ import React from 'react';
 
 const externalJs = '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
 
-class ReactGoogleAdsense extends React.Component {
+class G extends React.Component {
+    constructor(props) {
+        super(props);
+    }
     componentDidMount() {
         ((d, s, id, cb) => {
             const element = d.getElementsByTagName(s)[0];
@@ -32,7 +35,7 @@ class ReactGoogleAdsense extends React.Component {
     }
 }
 
-ReactGoogleAdsense.propTypes = {
+G.propTypes = {
     client: React.PropTypes.string.isRequired,
     slot: React.PropTypes.string.isRequired,
     format: React.PropTypes.string,
@@ -40,9 +43,9 @@ ReactGoogleAdsense.propTypes = {
     style: React.PropTypes.object
 };
 
-ReactGoogleAdSense.defaultProps = {
+G.defaultProps = {
     style: { display: 'block '},
     format: 'auto'
 };
 
-export default ReactGoogleAdsense;
+export default G;

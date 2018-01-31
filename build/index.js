@@ -91,16 +91,16 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 var externalJs = '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
 
-var ReactGoogleAdsense = function (_React$Component) {
-    _inherits(ReactGoogleAdsense, _React$Component);
+var G = function (_React$Component) {
+    _inherits(G, _React$Component);
 
-    function ReactGoogleAdsense() {
-        _classCallCheck(this, ReactGoogleAdsense);
+    function G(props) {
+        _classCallCheck(this, G);
 
-        return _possibleConstructorReturn(this, (ReactGoogleAdsense.__proto__ || Object.getPrototypeOf(ReactGoogleAdsense)).apply(this, arguments));
+        return _possibleConstructorReturn(this, (G.__proto__ || Object.getPrototypeOf(G)).call(this, props));
     }
 
-    _createClass(ReactGoogleAdsense, [{
+    _createClass(G, [{
         key: 'componentDidMount',
         value: function componentDidMount() {
             (function (d, s, id, cb) {
@@ -130,10 +130,10 @@ var ReactGoogleAdsense = function (_React$Component) {
         }
     }]);
 
-    return ReactGoogleAdsense;
+    return G;
 }(_react2.default.Component);
 
-ReactGoogleAdsense.propTypes = {
+G.propTypes = {
     client: _react2.default.PropTypes.string.isRequired,
     slot: _react2.default.PropTypes.string.isRequired,
     format: _react2.default.PropTypes.string,
@@ -141,12 +141,12 @@ ReactGoogleAdsense.propTypes = {
     style: _react2.default.PropTypes.object
 };
 
-ReactGoogleAdSense.defaultProps = {
+G.defaultProps = {
     style: { display: 'block ' },
     format: 'auto'
 };
 
-exports.default = ReactGoogleAdsense;
+exports.default = G;
 
 /***/ }),
 /* 1 */
